@@ -14,9 +14,13 @@ usinis etetin qosiqlarin'izdi kerekli papkag'a saqlaw(keminde birew)
 - pythondi ornatiw ushin(linux distributorlar ushin)
 >$ sudo apt install python3 \
 >$ sudo apt-get update
+
 - windows paydalaniwshilar ushin
 [python3](python.org/downloads/) tan juklep ala alasiz MacOs ushinda usi jerde bar
 
+- Hamde botti iske ushin tusiriw aldin pip di keyin telegram bot kutipxanasin qosiwingiz talap etiledi
+> $ python -m pip install --upgrade pip
+> $ pip install python-telegram-bot --upgrade
 
 - Dostlarin'izding tuwilg'an sanelerin bazag'a kiritiw oni [db-Browser-Sqlite](https://sqlitebrowser.org/dl/) arqali toldrip shiqsangiz bo'ladi
 <table>
@@ -42,3 +46,8 @@ misali
 - kiyin usi id lardi bilgen halda images papkag'a suwretlerdi id bo'yincha saqlaw. (misali: 1.jpg(bul tobedegi misaldag'i Sardording suwreti))
 
 
+# Run beriw
+Botti iske tusiriw ushin main.py fayldi iske tusiriwingiz kerek bo'ladi
+> python3 main.py 
+Note: albette bul jerde glavniy papka ishinde main.py turg'an jerde bo'liw kerek
+pycharm uqsag'an IDE larda tursan'iz bul angsat keshedi
